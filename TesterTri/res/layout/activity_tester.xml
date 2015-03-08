@@ -1,0 +1,38 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Signal Strength"
+        tools:context=".MainActivity" />
+    <EditText 
+        android:id="@+id/trainingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Set Training ID"
+        tools:context=".MainActivity"
+        />
+	<EditText
+	    android:id="@+id/wifisConsidered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="WifiNames"
+        tools:context=".MainActivity"
+	    />
+    <Button
+        android:id="@+id/startTesting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Start Testing"
+        tools:context=".MainActivity"
+        />
+
+</TableLayout>

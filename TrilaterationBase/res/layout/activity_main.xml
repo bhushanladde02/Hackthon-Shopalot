@@ -1,0 +1,91 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Signal Strength"
+        tools:context=".MainActivity" />
+    <EditText 
+        android:id="@+id/setArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Set Region"
+        tools:context=".MainActivity"
+        />
+    <Button 
+         android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Start"
+        tools:context=".MainActivity"
+        />
+    <Button 
+         android:id="@+id/buttonwifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="Set Wifi"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setWifi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetWifi1"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setWifi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetWifi2"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setWifi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetWifi3"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setWifi4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetWifi4"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setWifi5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetWifi5"
+        tools:context=".MainActivity"
+        />
+    <EditText
+        android:id="@+id/setTrainingID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="SetTrainingID"
+        tools:context=".MainActivity"
+        />
+
+    <Button
+        android:id="@+id/getwifiNames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GetWifiNames" />
+
+</TableLayout>
